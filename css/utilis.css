@@ -1,28 +1,39 @@
-:root{
-    --main-bg-color:rgb(96, 6, 96);
-    --main-text-color: rgba(18, 15, 15, 0.925);
-    --main-white-color: rgba(255, 255, 255, 0.95);
-    --main-red-color:rgba(234, 17, 17, 0.893);
+:root {
+  --main-bg-color: rgb(96, 6, 96);
+  --main-text-color: rgba(18, 15, 15, 0.925);
+  --main-white-color: rgba(255, 255, 255, 0.95);
+  --main-red-color: rgba(234, 17, 17, 0.893);
+  --footer-black-color:#272727;
+  --main-green-color:#7dcea0;
 }
-.flex-center{
+.flex-center {
+  display: flex;
+}
+.flex-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.flex-row{
     display: flex;
+    justify-content: center;
 }
 
-.btn{
-    padding: 15px 25px;
-    margin: 20px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    border: 2px solid #ffc107;
-    color:white;
-    cursor: pointer;
-    background: linear-gradient(to right,transparent 50%,#ffc107 50%);
-    background-size: 200%;
-    background-position: left;
-    transition: background-position 0.5s;
-
+.btn {
+  padding: 15px 25px;
+  margin: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 2px solid #ffc107;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to right, transparent 50%, #ffc107 50%);
+  background-size: 200%;
+  background-position: left;
+  transition: background-position 0.5s;
 }
-.btn:hover{
-    background-position: right;
-    color: #000;
+.btn:hover {
+  background-position: right;
+  color: #000;
 }

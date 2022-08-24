@@ -1,86 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gaurav Kumar Chaurasiya</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utilis.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilis.css" />
+  </head>
+  <body>
     <div class="banner">
-    <header>
+      <header>
         <nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="GKC logo">
-            </div>
-            <div>
+          <div class="logo">
+            <img src="img/logo.png" alt="GKC logo" />
+          </div>
+          <div>
             <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="/html/portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#about">About me</a>
-                </li>
-                <li>
-                    <a href="#blog">Blog</a>
-                
-                <li>
-                    <a href="#contact">Contact </a>
-                </li>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="/html/portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About me</a>
+              </li>
+              <li>
+                <a href="#blog">Blog</a>
+              </li>
+
+              <li>
+                <a href="#contact">Contact </a>
+              </li>
             </ul>
-        </div>
+          </div>
         </nav>
+      </header>
 
-    </header>
-
-
-    <main>
+      <main>
         <section>
-            <div class="home-content">
-                <h1>Welcome</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem doloribus dolorum dignissimos eligendi sint <br> nobis, alias eius? Ab assumenda perspiciatis, maxime animi repellat magnam totam fugiat, placeat eum iste voluptatibus.
+          <div class="home-content">
+            <h1>Welcome</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              doloribus dolorum dignissimos eligendi sint <br />
+              nobis, alias eius? Ab assumenda perspiciatis, maxime animi
+              repellat magnam totam fugiat, placeat eum iste voluptatibus.
+            </p>
+            <button class="btn">Explore</button>
+          </div>
+        </section>
+        <section>
+          <div id="about">
+            <div class="left">
+              <img src="/img/gkc.png" alt="" />
+            </div>
+            <div class="right">
+              <div class="details">
+                <h2>Gaurav Kumar Chaurasiya</h2>
+                <p>I am a Web Developer</p>
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href="#"><img src="/img/github.png" alt="github" /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/img/linkedin.png" alt="github"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/img/twitter.png" alt="github"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id="blog">
+            <h2 class="flex-row">Popular Posts</h2>
+            <div class="blog-posts flex-row">
+              <div class="blog1">
+                <img src="./img/bg1.jpg" alt="blog 1" />
+                <h3>How to draw cards?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci atque quaerat magnam laudantium minus? Vel obcaecati
+                  nihil consectetur corrupti exercitationem.
                 </p>
-                <button class="btn">Explore</button>
+                <button class="btn">Read More</button>
+              </div>
+              <div class="blog2">
+                <img src="./img/bg.jpg" alt="blog 1" />
+                <h3>How to draw cards?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci atque quaerat magnam laudantium minus? Vel obcaecati
+                  nihil consectetur corrupti exercitationem.
+                </p>
+                <button class="btn">Read More</button>
+              </div>
+              <div class="blog3">
+                <img src="./img/bg2.jpg" alt="blog 1" />
+                <h3>How to draw cards?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci atque quaerat magnam laudantium minus? Vel obcaecati
+                  nihil consectetur corrupti exercitationem.
+                </p>
+                <button class="btn">Read More</button>
+              </div>
             </div>
-            <div id="about">
-                <div class="left">
-                    <img src="/img/gkc.png" alt="">
-                </div>
-                <div class="right">
-                    <div class="details">
-                        <h2>Gaurav Kumar Chaurasiya</h2>
-                        <p>I am a Web Developer</p>
-                        <div class="social">
-                            <ul>
-                                <li><a href="#"><img src="/img/github.png" alt="github"></a></li>
-                                <li><a href="#"><img src="/img/linkedin.png" alt="github"></a></li>
-                                <li><a href="#"><img src="/img/twitter.png" alt="github"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </section>
         <section>
-            <div id="blog">
-                
+            <div id="contact">
+                <form action="" id="contact-form">
+                    <div class="form-list flex-column">
+                        <label for="name">Name * : </label>
+                        <input type="text" name="name" id="name" placeholder="Joel John" required>
+                        <label for="email">Email * : </label>
+                        <input type="email" email="email" id="email" placeholder="example@gmail.com" required>
+                        <label for="message">Message : </label>
+                        <textarea name="message" id="message" cols="10" rows="10" placeholder="Type Your Message"></textarea>
+                        <button class="btn">Send</button>
+                    </div>
+                </form>
             </div>
         </section>
-
-    </main>
-    <footer>
-
-    </footer>
-
-
-</div>
+      </main>
+      <footer>
+        <div class="footer-items">
+            <div class="social-icons">
+                <ul class="flex-row">
+                    <li>
+                        <a href="#"><img src="./img/github.png" alt="github"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/linkedin.png" alt="linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/twitter.png" alt="twitter"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <div class="row-1 flex-row">
+                    <span> <a href="#"> HOME</a></span>
+                    <span> <a href="#"> ABOUT</a></span>
+                    <span> <a href="#"> PORTFOLIO</a></span>
+                    <span> <a href="#"> CONTACT</a></span>
+                </div>
+                <div class="row-2 flex-row">
+                    <span> <a href="#"> NEW BLOG</a></span>
+                    <span> <a href="#"> POPULAR BLOG</a></span>
+                    <span> <a href="#"> WEB</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright flex-row">
+            <p> &copy; Gaurav Kumar Chaurasiya </p>
+        </div>
+      </footer>
+    </div>
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
