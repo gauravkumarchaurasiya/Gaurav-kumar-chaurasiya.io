@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.pLight{
+    
+      background-color: var(--white-color);
+      color: var(--black-color);
+    
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    /* color: var(--white-color); */
+    color: var(--black-color);
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.largeBtn{
+    padding:1rem 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, var(--main-color) 50%);
+    background-position: right;
+    background-size: 200%;
+    margin: 15px;
+
+}
+.smallBtn{
+    padding:.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    background: linear-gradient(to right,transparent 50%,var(--main-color)  50%);
+    background-position: right;
+    background-size: 200%;
+    margin: 15px;
+    
+}
+.largeBtn:hover{
+    background-color: rgb(114, 103, 103);
+    background-position: left;
+    /* transition:ease-in-out .5s; */
+    transition: background-position .5s;
+}
+.smallBtn:hover{
+    background-color: rgb(114, 103, 103);
+    background-position: left;
+    /* transition:ease-in-out .5s; */
+    transition: background-position .5s;
+}
+.portfolioHome{
+    justify-content: left;
+/* background-color: aqua; */
+display: flex;
+}
+ /* .logo{
+    width: 80px;
+     position: absolute;
+     margin: 3rem; 
+    justify-content: left;
+     align-self: center;  
+}  */
+header{
+    /* background-color: red; */
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    border-right: 1px solid rgb(42, 42, 4);
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10rem;
+}
+header ul li{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #fff;
+    border-width: 2px;
+}
+header ul li:hover{
+    box-shadow: 2px 2px 2px var(--main-color) ;
+    text-shadow: 2px 2px 2px var(--main-color) ;
+    border-right: 1px solid var(--main-color) ;
+ 
+}
+
+header ul li img{
+    width: 28px;
+    margin-right: 5px;
+    background-color: var(--white-color);
+    padding: 5px;
+}
+
+
+header ul li a{
+    font-size: 28px;  
+    font-weight: bold; 
+}
+header ul li a:hover,header ul li img:hover{
+    font-size: 30px;
+    width: 30px;
+}
+header .logo{
+    /* font-size: 22px;  */
+    width: 76px;
+    margin-top: -12em; 
+    margin-bottom: 15rem;
+    /* padding-bottom: 12em; */
+    /* margin-top: ; */
+}
+.pHome{
+    /* background-color: rgb(121, 192, 121); */
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.pMode{
+    float: right;
+    /* position: relative; */
+    /* display:inline; */
+    margin-right: 50px;
+    /* overflow: ; */
+    margin-top: 30px;
+    
+}
+.pMode a{
+    /* position: absolute; */
+    /* top: 0; */
+}
+.pMode button{
+    padding: 7px;
+    /* border: 2px solid green; */
+    margin-bottom: -90px;
+    border-radius: 30px;
+
+}
+.pMode button img{
+    width: 	30px;
+    padding-top: 2px;
+    /* background:var(--white-color); */
+    right: 0px;
+    
+}
+/* .pMode button{
+    background-color: blue;
+    position: absolute;
+    float: right;
+    margin-top: 20px;
+} */
+.pHome .left{
+    font-size: 1.7rem;
+}
+.pHome .left p{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2px 0px;
+    color: var(--main-color);
+}
+.pHome .left pre{
+    padding: 3px 13px;
+    margin-bottom: 10px;
+}
+.pHome .left p:hover{
+    color:var(---color);
+    text-shadow:1px 1px 1px rgba(var(--main-color),.5);
+}
+.pHome .right{
+    /* background-color: rgba(101,102,103,.5); */
+}
+
+.pHome .right img{
+    width: 30vw;
+    border-bottom: 1px solid var(--main-color);
+    border-width: 3px;
+}
+.pproject{
+    /* position: absolute; */
+    height: 150px;
+}
+/* main{
+    overflow:none;
+} */

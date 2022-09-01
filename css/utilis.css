@@ -1,14 +1,23 @@
 :root {
-  --main-bg2-color: rgb(211, 16, 211);
+  /* --main-bg2-color: rgb(211, 16, 211);
   --main-bg-color: rgb(158, 11, 158);
-  --main-bg1-color: rgb(220, 56, 220);
+  --main-bg1-color: rgb(220, 56, 220); */
   --main-text-color: rgba(18, 15, 15, 0.925);
   --main-white-color: rgba(255, 255, 255, 0.95);
   /* --main-red-color: #7dc5ce; */
   /* --main-red-color: rgb(135, 12, 135); */
   --main-red-color: rgba(234, 17, 17, 0.893);
   --footer-black-color:#272727;
+  --main-bg2-color:#272727;
+  --main-bg-color: #272727;
+  --main-bg1-color: #272727;
   --main-green-color:#7dcea0;
+/* portfolio color */
+--white-color:rgba(255, 255, 255, 0.95);
+--black-color:rgb(39, 35, 35);
+/* --main-color:rgb(218, 48, 224); */
+--main-color:rgb(48, 206, 224);
+
 }
 .flex-center {
   display: flex;

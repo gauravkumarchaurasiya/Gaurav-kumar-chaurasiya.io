@@ -14,10 +14,12 @@ ul {
 /* global items ends */
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url(/img/giphy.gif);
   background-size: fit;
-  background-position: center;
+  background-position: center; */
+  background-color: var(--main-bg1-color);
+  color: var(--main-white-color);
 }
 
 header {
@@ -62,20 +64,20 @@ header nav ul li {
 header nav ul li a {
   /* text-decoration: none; */
   color: var(--main-white-color);
-  
-  
+   
+}
+header nav ul li .modeToggle{
+  padding:5px 10px;
 }
 header nav ul li:hover{
-    background-color: var(--main-bg2-color);
+    background-color: grey;
     border-radius:10px;
-    /* transition: 0.5s;
-    transition-property: background; */
 
 }
 .home-content {
   width: 100%;
   height: 100vh;
-  color: var(--main-white-color);
+  /* color: var(--main-white-color); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,11 +92,11 @@ header nav ul li:hover{
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 300px;
-  background-color: var(--main-bg2-color);
+  /* background-color: var(--main-bg2-color); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: var(--main-white-color);
+  /* color: var(--main-white-color); */
 }
 #about ul {
   list-style: none;
@@ -105,7 +107,7 @@ header nav ul li:hover{
   margin: 10px;
 }
 #about ul li a {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 #about ul li a img {
   width: 45px;
@@ -118,7 +120,7 @@ header nav ul li:hover{
 }
 #about .left img:hover {
   width: 16rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #about .name span:hover {
@@ -131,18 +133,19 @@ header nav ul li:hover{
 
 #blog {
   height: 500px;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 }
 #blog .blog-posts{
     /* border: 2px solid yellow; */
     height: 60vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 10px;
 }
 #blog h2{
     font-size: 30px;
-    color: var(--main-white-color);
+    /* color: var(--main-white-color); */
     padding: 20px;
 
 }
@@ -213,7 +216,7 @@ header nav ul li:hover{
 
 #contact{
     height: 75vh;
-    background-color:var(--main-bg1-color);
+    /* background-color:var(--main-bg1-color); */
     padding: 10px;
     
 }
@@ -222,7 +225,7 @@ header nav ul li:hover{
 }
 
 #contact .form-list{
-    border: 2.5px solid green;
+    /* border: 2.5px solid green; */
     background-color: var(--main-green-color);
     padding: 25px;
     width: 37vw;
@@ -259,8 +262,8 @@ header nav ul li:hover{
 }
 footer{
     height: 25vh;
-    background-color: var(--footer-black-color);
-    color: var(--main-white-color);
+    /* background-color: var(--footer-black-color); */
+    /* color: var(--main-white-color); */
     font-size: 1.2rem;
 }
 footer .footer-items a{
@@ -282,3 +285,14 @@ footer .copyright{
     background-color: var(--main-green-color);
     margin-top: 8px;
 }
+
+/* Theme */
+/* .dark{
+  background-color: black;
+  color: white;
+} */
+.light{
+  /* border:3px solid green; */
+  background-color: var(--main-white-color);
+  color: var(--main-bg1-color);
+} 

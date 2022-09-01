@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilis.css" />
   </head>
-  <body>
+  <body class="light">
     <div class="banner">
       <header>
         <nav>
@@ -29,9 +29,11 @@
               <li>
                 <a href="#blog">Blog</a>
               </li>
-
               <li>
                 <a href="#contact">Contact </a>
+              </li>
+              <li>
+                <button type="toggle" class="modeToggle" >Mode</button>
               </li>
             </ul>
           </div>
@@ -50,10 +52,11 @@
             </p>
             <button class="btn">Explore</button>
           </div>
+        </banner>
         </section>
         <section>
           <div id="about">
-            <div class="left"><abbr title="GAURAV KUMAR CHAURASIYA">
+            <div class="left "><abbr title="GAURAV KUMAR CHAURASIYA">
               <img src="./img/gkc.png" alt="" /></abbr>
             </div>
             <div class="right">
@@ -83,10 +86,10 @@
           </div>
         </section>
         <section>
-          <hr>
-          <div id="blog">
+        
+          <div id="blog" >
             <h2 class="flex-row">Popular Posts</h2>
-            <div class="blog-posts flex-row">
+            <div class="blog-posts flex-row ">
               <div class="blog1">
                 <img src="./img/bg1.jpg" alt="blog 1" />
                 <h3>How to draw cards?</h3>
@@ -121,8 +124,8 @@
           </div>
         </section>
         <section>
-            <div id="contact">
-                <form action="" id="contact-form" name="contact" method="POST" data-netlify="true">
+            <div id="contact" class="">
+                <form action="" id="contact-form" name="contact" method="POST" data-netlify="true" class="flex-row">
                     <div class="form-list flex-column">
                         <label for="name">Name * : </label>
                         <input type="text" name="name" id="name" placeholder="Joel John" required>
@@ -170,6 +173,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/index.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
